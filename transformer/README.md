@@ -23,7 +23,7 @@ The basics of processing GTFS with the [OneBusAway GTFS Transformer CLI](http://
 1. Move into directory `cd learnyounode`
 
 2. Run transformer (full documentation is [here](http://developer.onebusaway.org/modules/onebusaway-gtfs-modules/current-SNAPSHOT/onebusaway-gtfs-transformer-cli.html))
-  * `java -jar -Xmx4G -server onebusaway-gtfs-transformer-cli-1.3.3.jar --transform=match.json data/google_transit.zip data/gtfs_out.zip`
+  * `java -jar -Xmx4G -server onebusaway-gtfs-transformer-cli-1.3.3.jar --transform=match.json ../data/google_transit.zip ../data/gtfs_out.zip`
 
 ### Examples
 To change the transformations you perform on your gtfs feed, open `match.json` and change the arguments to suit your needs.
