@@ -19,7 +19,7 @@ java -classpath onebusaway-gtfs-hibernate-cli-1.3.3.jar:your-database-jdbc.jar \
  gtfs_path
 ```
 
-### Postgresql
+### Postgresql (assumes version 9.3)
 ```bash
 java -classpath onebusaway-gtfs-hibernate-cli-1.3.3.jar:postgresql-9.3-1100.jdbc4.jar \
 org.onebusaway.gtfs.GtfsDatabaseLoaderMain \
