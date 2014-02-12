@@ -22,12 +22,12 @@ java -classpath onebusaway-gtfs-hibernate-cli-1.3.3.jar:your-database-jdbc.jar \
 ### Postgresql (assumes version 9.3)
 ```bash
 java -classpath onebusaway-gtfs-hibernate-cli-1.3.3.jar:postgresql-9.3-1100.jdbc4.jar \
-org.onebusaway.gtfs.GtfsDatabaseLoaderMain \
---driverClass=org.postgresql.Driver \
---url=jdbc:postgresql://localhost/gtfs \
---username=postgres \
---password= \
-~../data/google_transit.zip
+ org.onebusaway.gtfs.GtfsDatabaseLoaderMain \
+ --driverClass=org.postgresql.Driver \
+ --url=jdbc:postgresql://localhost/gtfs \
+ --username=postgres \
+ --password= \
+ ../data/google_transit.zip
 ```
 
 ### Examples
